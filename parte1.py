@@ -5,8 +5,6 @@ import sys
 import json
 import time
 
-python3 app.py --port=8080
-
 from subprocess import call
 os.system('git clone https://github.com/CDPS-ETSIT/practica_creativa2.git')
 variable = os.environ.get('GROUP_NUMBER')      
