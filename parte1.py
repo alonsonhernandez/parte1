@@ -50,6 +50,13 @@ os.system('sudo apt-get install  python3-pip')
 os.system('pip3 install -r /home/cdps/parte1/practica_creativa2/bookinfo/src/productpage/requirements.txt')
 os.system(' python3 /home/cdps/parte1/practica_creativa2/bookinfo/src/productpage/productpage_monolith.py 8080')
 
+app.run(host='0.0.0.0', port=8080)
+
+
+
+
+
+
 
 
 
